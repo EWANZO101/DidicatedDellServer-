@@ -1,0 +1,11 @@
+{
+    "name": "DedicatedDellServer",
+    "alias": "dedicateddellserver",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "App\\Services\\DedicatedDellServer\\Providers\\DedicatedDellServerServiceProvider"
+    ],
+    "files": []
+}

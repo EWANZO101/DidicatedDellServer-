@@ -1,0 +1,19 @@
+public static function setConfig(): array
+{
+    return [
+        [
+            "key" => "dedicated_dell_server::api_key",
+            "name" => "API Key",
+            "description" => "API key for Dell server management",
+            "type" => "text",
+            "rules" => ['required'],
+        ],
+        [
+            "key" => "dedicated_dell_server::endpoint",
+            "name" => "API Endpoint",
+            "description" => "Endpoint URL for Dell server management",
+            "type" => "text",
+            "rules" => ['required', 'url'],
+        ],
+    ];
+}
