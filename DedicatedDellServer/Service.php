@@ -31,7 +31,7 @@ class Service implements ServiceInterface
         return (object)
         [
           'display_name' => 'DedicatedDellServer',
-          'author' => 'WemX',
+          'author' => 'E',
           'version' => '1.0.0',
           'wemx_version' => ['dev', '>=1.8.0'],
         ];
